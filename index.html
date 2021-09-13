@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drum Kit</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="keys">
+      <div data-key="65" class="key">
+        <kbd>A</kbd>
+        <span class="sound">claps</span>
+      </div>
+      <div data-key="83" class="key">
+        <kbd>S</kbd>
+        <span class="sound">hit</span>
+      </div>
+      <div data-key="68" class="key">
+        <kbd>D</kbd>
+        <span class="sound">kick</span>
+      </div>
+      <div data-key="70" class="key">
+        <kbd>F</kbd>
+        <span class="sound">snare</span>
+      </div>
+      <div data-key="71" class="key">
+        <kbd>G</kbd>
+        <span class="sound">highhat</span>
+      </div>
+      <div data-key="72" class="key">
+        <kbd>H</kbd>
+        <span class="sound">Ride</span>
+      </div>
+      <div data-key="74" class="key">
+        <kbd>J</kbd>
+        <span class="sound">snare</span>
+      </div>
+      <div data-key="75" class="key">
+        <kbd>K</kbd>
+        <span class="sound">ton</span>
+      </div>
+      <div data-key="76" class="key">
+        <kbd>L</kbd>
+        <span class="sound">tink</span>
+      </div>
+    </div>
+    <div>
+      <audio
+        src="https://sampleswap.org/samples-ghost/DRUMS%20(SINGLE%20HITS)/Claps/30[kb]claps-w_cymb.WAV.mp3"
+        data-key="65"
+      ></audio>
+      <audio
+        src="http://vincentbernay.free.fr/free-percussions-loops/sleigh%20bells.wav"
+        data-key="83"
+      ></audio>
+      <audio
+        src="http://electrongate.com/dmxfiles/beatkick.wav"
+        data-key="68"
+      ></audio>
+      <audio
+        src="http://www.denhaku.com/r_box/sr16/sr16sd/hipuresn.wav"
+        data-key="70"
+      ></audio>
+      <audio
+        src="http://www.denhaku.com/r_box/sr16/sr16hat/half%20hat.wav"
+        data-key="71"
+      ></audio>
+      <audio
+        src="http://electrongate.com/dmxfiles/RIDE2A.wav"
+        data-key="72"
+      ></audio>
+      <audio
+        src="http://www.denhaku.com/r_box/sr16/sr16sd/frngesnr.wav"
+        data-key="74"
+      ></audio>
+      <audio
+        src="http://machines.hyperreal.org/machines/manufacturers/Sequential/Drumtraks/samples/tmp/Drumtraks/DT_Tom02.wav"
+        data-key="75"
+      ></audio>
+      <audio
+        src="http://www.chiptape.com/chiptape/sounds/medium/getmbs.wav"
+        data-key="76"
+      ></audio>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
